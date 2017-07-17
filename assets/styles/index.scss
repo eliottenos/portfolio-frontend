@@ -52,6 +52,13 @@ h4 {
   padding-top: 25px;
 }
 
+.bottom {
+  position: absolute;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 175px;
+}
+
 .logo1 {
   height: auto;
   width: auto;
@@ -84,7 +91,7 @@ h4 {
 // }
 
 .svg-container {
-    width: 60px;
+    width: 50px;
     display: inline-block;
     // position: fixed;
     // bottom: 0px;
@@ -95,6 +102,12 @@ h4 {
       // bottom: 0;
       // left: 0;
       // padding: 1rem;
+}
+
+.container {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
 }
 
 // .footer {
