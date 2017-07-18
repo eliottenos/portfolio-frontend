@@ -45,27 +45,42 @@ h4 {
    max-height: 200px;
 }
 
-.main {
+.top {
   position: absolute;
   padding-left: 250px;
   padding-right: 250px;
   padding-top: 25px;
 }
 
+.main {
+  position: absolute;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 100px;
+}
+
 .bottom {
   position: absolute;
   padding-left: 250px;
   padding-right: 250px;
-  padding-top: 175px;
+  padding-top: 230px;
 }
+
+// .resume {
+//   position: absolute;
+//   padding-left: 250px;
+//   padding-right: 250px;
+//   padding-top: 175px;
+//   text-align: center;
+// }
 
 .logo1 {
   height: auto;
   width: auto;
   top: 30px;
-  left: 30px;
+  left: 20px;
   max-width: 180px;
-  max-height: 60px;
+  max-height: 40px;
   position: absolute;
   display: inline;
 }
@@ -74,9 +89,20 @@ h4 {
   height: auto;
   width: auto;
   top: 30px;
-  left: 210px;
+  left: 140px;
   max-width: 60px;
-  max-height: 60px;
+  max-height: 40px;
+  position: absolute;
+  display: inline;
+}
+
+.logo3 {
+  height: auto;
+  width: auto;
+  top: 30px;
+  left: 190px;
+  max-width: 60px;
+  max-height: 40px;
   position: absolute;
   display: inline;
 }
